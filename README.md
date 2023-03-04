@@ -66,7 +66,7 @@ def clean_table(html):
 #### Task 4 | Table To PDF
 Finalmente se utiliza la tabla extraída para generar un pdf mediante la librería
 pdfkit
-```
+```py
 @task
 def table_to_pdf(table):
    pdfkit.from_string(table, 'out.pdf') 
